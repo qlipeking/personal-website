@@ -4,12 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q.Li | The Best Developer</title>
-    <script src="https://cdn.tailwindcss.com.www"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <style>
         body { font-family: 'Inter', sans-serif; scroll-behavior: smooth; }
         .gradient-text { background: linear-gradient(90deg, #3b82f6, #2dd4bf); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
-        /* Style for the image aspect ratio */
         .portrait-frame {
             aspect-ratio: 4 / 5;
             object-fit: cover;
@@ -46,7 +45,7 @@
                     src="portrait.jpg" 
                     alt="Q.Li Portrait" 
                     class="portrait-frame rounded-3xl shadow-2xl shadow-slate-200 w-full"
-                    onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Place+portrait.jpg+here'; this.style.border='2px dashed #ccc'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.style.background='#eee'; this.style.color='#666';"
+                    onerror="this.onerror=null; this.src='https://via.placeholder.com/400x500?text=Portrait+Missing'; this.style.background='#eee';"
                 >
             </div>
 
@@ -62,12 +61,11 @@
             <div class="p-8 bg-white border border-slate-200 rounded-3xl md:col-span-2">
                 <h3 class="font-semibold mb-4 text-slate-500 uppercase text-xs tracking-widest">Core Competencies</h3>
                 <div class="flex flex-wrap gap-2">
-                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm">Agile/Scrum</span>
-                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm">Risk Mitigation</span>
-                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm">Jira & Asana</span>
-                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm">SQL & Tableau</span>
-                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm">Vendor Management</span>
-                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm">Software Development Life Cycle (SDLC)</span>
+                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm font-medium">Agile/Scrum</span>
+                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm font-medium">Risk Mitigation</span>
+                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm font-medium">Jira & Asana</span>
+                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm font-medium">SQL & Tableau</span>
+                    <span class="px-4 py-2 bg-slate-100 rounded-full text-sm font-medium">SDLC Management</span>
                 </div>
             </div>
         </div>
@@ -86,17 +84,7 @@
                         <ul class="text-slate-600 space-y-3 list-disc list-inside">
                             <li>Led CRM migration for Global 500 client (1,200+ users).</li>
                             <li>Reduced turnaround time by 22% via automated dashboards.</li>
-                            <li>Managed 15+ cross-functional specialists across 3 time zones.</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="flex flex-col md:flex-row gap-4 md:gap-12 border-t border-slate-200 pt-8">
-                    <div class="md:w-1/3 text-slate-500 font-medium">2017 — 2021</div>
-                    <div class="md:w-2/3">
-                        <h3 class="text-xl font-bold">BrightPath Marketing</h3>
-                        <p class="text-blue-600 font-medium mb-4">Project Coordinator</p>
-                        <p class="text-slate-600">Oversaw 40+ simultaneous digital campaigns while saving $45k annually through savvy vendor negotiations.</p>
                     </div>
                 </div>
             </div>
@@ -106,11 +94,11 @@
     <footer class="bg-slate-900 text-white py-20 px-6">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
             <div>
-                <h2 class="text-2xl font-bold mb-2">Let's build something better.</h2>
-                <p class="text-slate-400">Currently restoring a 1982 Galaga machine and searching for the city's best sourdough.</p>
+                <h2 class="text-2xl font-bold mb-2">Q.Li | Strategic Tech Leader</h2>
+                <p class="text-slate-400">Restoring vintage arcade machines and building better software.</p>
             </div>
             <a href="mailto:alex.thorne.example@email.com" class="text-xl border-b-2 border-blue-500 pb-1 hover:text-blue-400 transition">
-                alex.thorne.example@email.com
+                Contact Me
             </a>
         </div>
     </footer>
